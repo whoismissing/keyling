@@ -12,3 +12,9 @@ The 10 hour experience of working with the qiling framework
 
 #### Hour 1 
 * Created prototype boilerplate code for hooking a syscall, redirecting unhandled codes to the original handler.
+
+#### Hour 2
+* Created example C code for testing how to implement a missing syscall.
+
+#### Hour 3
+* Implemented a missing syscall, showing an example of how to hijack and modify the data returned.
