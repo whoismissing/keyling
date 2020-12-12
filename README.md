@@ -186,6 +186,17 @@ The state of memory, registers, and cpu context can be saved on a qiling emulato
 
 ---
 
+#### Real world Experience
+
+Mileage may vary depending on core architecture and syscall support from the qiling framework.
+
+Takeaway is to figure out the level of effort needed for emulating a particular target.
+
+* Do you want to achieve full emulation of the binary?
+* Do you only need to emulate a particular function in the code?
+
+---
+
 #### Errata
 
 For running windows stuff, have to collect dlls with `qiling/examples/scripts/dllscollector.bat` and dump registry since those files are not provided for the rootfs because of legal licensing reasons.
